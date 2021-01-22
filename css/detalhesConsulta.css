@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+header{
+    margin: 0px 0px;
+    padding: 0px;
+    font-family: "Calibri Light",sans-serif;
+}
+
+body{
+    position: relative;
+    box-sizing: border-box;
+    background-color: #111b31;
+}
+
+table{
+    color: deepskyblue;
+font-weight: bolder;
+    font-family: arial, helvetica, sans-serif;
+    width: 100%;
+}
+
+td{
+    width: 10%;
+    padding: 10px;
+    /*border: 1px solid white;*/
+}
+
+span{
+    color: white;
+}
+
+.botao{
+    background-color: darkgrey;
+    margin: 2px;
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.destaque{
+    text-align: center;
+}
+
+.dadosPoste{
+    border-bottom: 12px solid darkgrey;
+}
+
+.estruturaPoste{
+    border-bottom: 12px solid darkgrey;
+}
+
+.botao:hover{
+
+}
