@@ -25,13 +25,10 @@
         if(isset($resultado)){
             $idabastece = mysqli_fetch_array($resultado);
             $id = $idabastece['idabastece'];
-            mysqli_close($resultado);
             echo $id;
         }else{
             echo "erro";
         }
-        mysqli_close($resultado);
-        echo "ok";
     }else{
         echo "erro";
     }

@@ -46,5 +46,4 @@ if (mysqli_num_rows($verifica)==0){
    
 }
 
-mysqli_close($verifica);
 
