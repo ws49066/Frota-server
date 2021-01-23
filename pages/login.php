@@ -20,7 +20,7 @@ if (mysqli_num_rows($verifica)==0){
     $id_login_user = (String) $id_user['idusuario'];
     $id_nameuser = $id_user['nome'];
     $idveiculo = (String) $id_user['idveiculo'];
-    $query_veiculo = "SELECT placa,modelo, marca from veiculo where idveiculo='$idveiculo'";
+    $query_veiculo = "SELECT placa,modelo, marca, tipo from veiculo where idveiculo='$idveiculo'";
     $verifica_veiculo = mysqli_query($con, $query_veiculo) or die("erro ao selecionar");
     
     if (mysqli_num_rows($verifica)==0){
@@ -30,6 +30,7 @@ if (mysqli_num_rows($verifica)==0){
         $placa = $dados_veiculo['placa'];
         $modelo = $dados_veiculo['modelo'];
         $marca = $dados_veiculo['marca'];
+        $tipo = $dados_veiculo['tipo'];
         echo $id_nameuser;
         echo ",";
         echo $id_login_user;
@@ -41,6 +42,8 @@ if (mysqli_num_rows($verifica)==0){
         echo $modelo;
         echo ",";
         echo $marca;
+        echo ",";
+        echo $tipo;
     }
 
    

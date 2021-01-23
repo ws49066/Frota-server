@@ -13,7 +13,7 @@
     $valortotal = $_POST['valortotal'];
     $idveiculo = $_POST['idveiculo'];
     $iduser = $_POST['iduser'];
-    $data = date("d/m/y h:i:s");
+    $data = date("d/m/y H:i:s");
 
     $connect = mysqli_connect($host,$user,$pass) or trigger_error(mysqli_error(),E_USER_ERROR);
     $db = mysqli_select_db($connect,$db);

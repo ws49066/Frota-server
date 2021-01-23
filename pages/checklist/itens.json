@@ -1,0 +1,4 @@
+{
+    "carro":[ "lataria", "pneus", "vidroel","retrovisor","buzina","lanternas","farois","setas","luzdere","lparabrisa","freiodemao","painel","volante","alarme","luzinterior","freio","outros" ],
+    "moto":["pneus","retrovisor","buzina","lanternas","farois","setas","painel","alarme","freio","outros"]
+}
